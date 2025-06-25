@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Register</title>
+</head>
+<body>
+  <h2>Sign Up</h2>
+  <form action="connect.php" method="post">
+    <label>Username:</label><br>
+    <input type="text" name="username" required><br>
+
+    <label>Email:</label><br>
+    <input type="email" name="email" required><br>
+
+    <label>Password:</label><br>
+    <input type="password" name="password" required><br>
+
+    <label>Mobile:</label><br>
+    <input type="text" name="mobile" pattern="\d{10}" required><br>
+
+    <label>Gender:</label><br>
+    <input type="radio" name="gender" value="Male" required> Male
+    <input type="radio" name="gender" value="Female" required> Female
+    <input type="radio" name="gender" value="Other" required> Other<br><br>
+
+    <button type="submit">Sign Up</button>
+  </form>
+</body>
+</html>
