@@ -2,7 +2,7 @@
 $host = 'localhost';
 $user = 'root';
 $pass = '';
-$db   = 'register';  // replace with your DB name
+$db   = 'register';  
 
 $conn = new mysqli($host, $user, $pass, $db);
 if ($conn->connect_error) {
