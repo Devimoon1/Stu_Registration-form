@@ -1,1 +1,11 @@
 
+
+
+
+
+
+
+<?php
+echo "register successfuly";
+?>
+
